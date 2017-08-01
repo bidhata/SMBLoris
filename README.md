@@ -1,4 +1,4 @@
-SMB DOS
+Windows SMB DOS
 
 Usage:
-python smbloris.py "192.168.1.2" 900
+python smbloris.py "192.168.1.2" 1000
