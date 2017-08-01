@@ -1,13 +1,12 @@
 from scapy.all import *
 import sys
-
-p0 = int(sys.argv[1])
-i.dst = int(sys.argv[2])
-
 conf.L3socket
 conf.L3socket=L3RawSocket
 
 i = IP()
+i.dst = sys.argv[1]
+p0 = int(sys.argv[2])
+
 t = TCP()
 t.dport = 445
 
